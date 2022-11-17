@@ -85,6 +85,28 @@ section {
   padding: 24px;
   font-size: 5rem;
 }
+.card-main {
+  min-height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  font-size: 5rem;
+}
+.card-pl {
+  min-height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  font-size: 5rem;
+  margin-top: 400px;
+}
+.card-testimonial {
+  min-height: 400px;
+  background-color: #9999ff;
+  border-radius: 20px;
+  padding: 24px;
+  font-size: 5rem;
+}
 .white {
   background-color: white;
   padding-top: 10px;
