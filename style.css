@@ -41,11 +41,15 @@ a {
   color: white;
   padding: 0 20px;
   display: inline-block;
+  text-align: center;
 }
 ul {
   list-style-type: none;
   display: flex;
 }
+/*.navbar-right {
+  padding-top: 10px;
+}*/
 
 /*Main*/
 
@@ -95,4 +99,29 @@ section {
   flex-basis: 50%;
   height: 700px;
   border: solid 1px red;
+}
+
+/*Footer*/
+footer {
+  background-color: rgb(26, 26, 26);
+  height: 200px;
+}
+
+/**************Tablet********/
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+/**********Mobile*****/
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+  .row {
+    display: inline-block;
+  }
 }
